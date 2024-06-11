@@ -1,0 +1,11 @@
+.visual {width: 1920px; height: 841px;}
+.visual .slide1 {background-image: url(../images/bg1.jpg);}
+.visual .slide2 {background-image: url(../images/bg1_2.png);}
+.visual .slide3 {background-image: url(../images/bg1_3.jpg);}
+.visual .slide4 {background-image: url(../images/bg1_4.png);}
+.visual .slide5 {background-image: url(../images/bg1_5.png);}
+.visual .slide6 {background-image: url(../images/bg1_6.png);}
+.toast {width: 315px; height: 392px;}
+.set {width: 315px; height: 392px;}
+.side {width: 315px; height: 392px;}
+.drink {width: 315px; height: 392px;}
