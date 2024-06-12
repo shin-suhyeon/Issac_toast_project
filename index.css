@@ -1,13 +1,13 @@
 .bg
 .header_nav {background-color: beige;}
-.header_nav header{height:112px; background:#fff;left:0; top:0; z-index:999; width:100%;display:flex; justify-content: space-between;align-items:center;}
-.header_nav header h1{margin-left: 260px;}
-.header_nav header nav {background-color: pink; display:flex; }  
-.header_nav header nav .gnb {}
-.header_nav header nav .gnb li {}
-.header_nav header nav .gnb li .snb {background-color: yellow; display: flex; }
+.header_nav header{height:112px; background:#fff;z-index:999; display:flex; position: relative; left: 0; top: 0;}
+.header_nav header h1{margin-left: 260px; display: flex; align-items: center;}
+.header_nav header nav {display: flex; margin-left: 320px;align-items: center;  white-space: nowrap; }  
+.header_nav header nav .gnb {display: flex;} 
+.header_nav header nav .gnb li {margin-right: 76px; font-size: 1.125rem;}
+.header_nav header nav .gnb li .snb { background-color: yellowgreen; text-align: center; display: none;}
 .header_nav header nav .gnb li .snb li {position: relative;}
-/* bg1 */
+/* --------------------------------------------------------------------------------------------bg1 */
 .visual {width: 1920px; height: 841px;}
 .visual .slide1 {background-image: url(../images/bg1.jpg);}
 .visual .slide2 {background-image: url(../images/bg1_2.png);}
@@ -19,7 +19,7 @@
 .set {width: 315px; height: 392px;}
 .side {width: 315px; height: 392px;}
 .drink {width: 315px; height: 392px;}
-/* bg2 */
+/* ---------------------------------------------------------------------------------------------bg2 */
 .bg2 {text-align: center;}
 .bg2 h1 {text-align: center; margin-top: 157px;}
 .bg2 h1 img{}
@@ -29,22 +29,21 @@
 .bg2 a span{margin-right: 5px;}
 .bg2 a em{}
 .bg2 a em img{height: 22px; width: 20px; margin-top: 60px;}
-/* bg3 */
+/* -------------------------------------------------------------------------------------------bg3 */
 .bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px;}
 .bg3 p{padding-top: 148px; text-align: center;}
 .bg3 p img{}
 .bg3 h2{text-align: center; color: white; font-weight: 800; font-size: 4rem;}
-.bg3 .mini_nav{text-align: center;}
-.bg3 .mini_nav .active{}
-.bg3 .mini_nav a{}
+.bg3 .mini_nav{text-align: center;margin-top: 40px;}
+.bg3 .mini_nav .active{background-color: #AC130C; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
+.bg3 .mini_nav a{margin-right: 43px; color: white;}
 .bg3 .menu_wrap{display: flex;}
 .bg3 .menu_wrap .toast_wrap{}
 .bg3 .menu_wrap .toast_wrap .swiper{}
 .bg3 .menu_wrap .toast_wrap .toast{}
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{}
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {}
-/* 요기서부텅 */
-/* 공통 선택자 */
+/* =================================================================================공통 선택자 */
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8{
 
 }
@@ -60,3 +59,21 @@
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img p{
 
 }
+/* =============================================================================footer=============================================================== */
+footer {background-color: #FFE68C; color: #FF2A20;}
+.fot_all {width: 1350px; margin: 0 auto; display: ;}
+footer .footer_top {border-bottom: 0.5px solid #FFCA7B; padding-bottom: 15px; padding-top: 14px;}
+footer .footer_top a {margin-right: 27px; color: #FF2A20;}
+footer .footer_top a span {margin-right: 27px; color: #FF2A20; font-weight: 600;}
+footer .fot_all .flex {display: flex;}
+footer h2 {display: inline-block; margin-top: 42px;}
+footer h2 img {}
+footer .footer_detail {background-color: aqua; display: flex; margin-top: 40px; margin-left: 89px;}
+footer .footer_detail dl {background-color: beige; display: flex; align-items: center;}
+footer .footer_detail dl dt {background-color: tomato;  flex-wrap: wrap; }
+footer .footer_detail dl dd {background-color: teal;}
+footer .footer_detail dl dd img {background-color: white;}
+footer .footer_detail p {background-color: skyblue; }
+footer .f_sns {background-color: yellowgreen; display: flex; margin-top: 51px;}
+footer .f_sns a {background-color: sienna;}
+footer .f_sns a img {background-color: royalblue;}
