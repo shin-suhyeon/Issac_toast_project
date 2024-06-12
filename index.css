@@ -1,0 +1,62 @@
+.bg
+.header_nav {background-color: beige;}
+.header_nav header{height:112px; background:#fff;left:0; top:0; z-index:999; width:100%;display:flex; justify-content: space-between;align-items:center;}
+.header_nav header h1{margin-left: 260px;}
+.header_nav header nav {background-color: pink; display:flex; }  
+.header_nav header nav .gnb {}
+.header_nav header nav .gnb li {}
+.header_nav header nav .gnb li .snb {background-color: yellow; display: flex; }
+.header_nav header nav .gnb li .snb li {position: relative;}
+/* bg1 */
+.visual {width: 1920px; height: 841px;}
+.visual .slide1 {background-image: url(../images/bg1.jpg);}
+.visual .slide2 {background-image: url(../images/bg1_2.png);}
+.visual .slide3 {background-image: url(../images/bg1_3.jpg);}
+.visual .slide4 {background-image: url(../images/bg1_4.png);}
+.visual .slide5 {background-image: url(../images/bg1_5.png);}
+.visual .slide6 {background-image: url(../images/bg1_6.png);}
+.toast {width: 315px; height: 392px;}
+.set {width: 315px; height: 392px;}
+.side {width: 315px; height: 392px;}
+.drink {width: 315px; height: 392px;}
+/* bg2 */
+.bg2 {text-align: center;}
+.bg2 h1 {text-align: center; margin-top: 157px;}
+.bg2 h1 img{}
+.bg2 h2 {margin-top: 34px; font-size: 1.4rem; letter-spacing: -5%;}
+.bg2 p{margin-top: 16px; line-height: 33px; color: #757575;}
+.bg2 a{border: 1px solid black; border-radius: 30px; padding: 10px 20px;} 
+.bg2 a span{margin-right: 5px;}
+.bg2 a em{}
+.bg2 a em img{height: 22px; width: 20px; margin-top: 60px;}
+/* bg3 */
+.bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px;}
+.bg3 p{padding-top: 148px; text-align: center;}
+.bg3 p img{}
+.bg3 h2{text-align: center; color: white; font-weight: 800; font-size: 4rem;}
+.bg3 .mini_nav{text-align: center;}
+.bg3 .mini_nav .active{}
+.bg3 .mini_nav a{}
+.bg3 .menu_wrap{display: flex;}
+.bg3 .menu_wrap .toast_wrap{}
+.bg3 .menu_wrap .toast_wrap .swiper{}
+.bg3 .menu_wrap .toast_wrap .toast{}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {}
+/* 요기서부텅 */
+/* 공통 선택자 */
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8{
+
+}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a{
+
+}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img{
+
+}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img h1{
+
+}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img p{
+
+}
