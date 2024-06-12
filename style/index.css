@@ -2,11 +2,13 @@
 .header_nav {background-color: beige;}
 .header_nav header{height:112px; background:#fff;z-index:999; display:flex; position: relative; left: 0; top: 0;}
 .header_nav header h1{margin-left: 260px; display: flex; align-items: center;}
-.header_nav header nav {display: flex; margin-left: 320px;align-items: center;  white-space: nowrap; }  
+.header_nav header nav {display: flex; margin-left: 320px;align-items: center;  white-space: nowrap;}  
 .header_nav header nav .gnb {display: flex;} 
-.header_nav header nav .gnb li {margin-right: 76px; font-size: 1.125rem;}
-.header_nav header nav .gnb li .snb { background-color: yellowgreen; text-align: center; display: none;}
-.header_nav header nav .gnb li .snb li {position: relative;}
+.header_nav header nav .gnb li {margin-right: 76px; font-size: 1.125rem;position: relative;}
+.header_nav header nav .gnb li .snb {text-align: center; position: absolute; margin-top: 50px; z-index: 300;}
+.header_nav header nav .gnb li .snb li {position: relative; z-index: 200; line-height: 190%;}
+.header_nav header nav .gnb li .snb li a {color: #757575; font-size: 0.938rem; font-weight: 500;}
+.header_nav header nav .nav_bg {position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
 /* --------------------------------------------------------------------------------------------bg1 */
 .visual {width: 1920px; height: 841px;}
 .visual .slide1 {background-image: url(../images/bg1.jpg);}
@@ -68,12 +70,14 @@ footer .footer_top a span {margin-right: 27px; color: #FF2A20; font-weight: 600;
 footer .fot_all .flex {display: flex;}
 footer h2 {display: inline-block; margin-top: 42px;}
 footer h2 img {}
-footer .footer_detail {background-color: aqua; display: flex; margin-top: 40px; margin-left: 89px;}
-footer .footer_detail dl {background-color: beige; display: flex; align-items: center;}
-footer .footer_detail dl dt {background-color: tomato;  flex-wrap: wrap; }
-footer .footer_detail dl dd {background-color: teal;}
-footer .footer_detail dl dd img {background-color: white;}
-footer .footer_detail p {background-color: skyblue; }
-footer .f_sns {background-color: yellowgreen; display: flex; margin-top: 51px;}
-footer .f_sns a {background-color: sienna;}
-footer .f_sns a img {background-color: royalblue;}
+footer .footer_detail {margin-top: 40px; margin-left: 89px;}
+footer .footer_detail dl {align-items: center; }
+footer .footer_detail dl dt {float: left; width: 100px; font-weight: 600; margin-bottom: 15px;}
+footer .footer_detail dl dd { float: right; width: calc(100% - 150px); margin-bottom: 15px;}
+footer .footer_detail dl dd span {font-weight: 600;}
+footer .footer_detail dl dd img {}
+footer .footer_detail p {clear: both; margin-bottom: 100px; padding-top: 10px; font-size: 0.85rem;}
+footer .footer_detail p span {clear: both; margin-bottom: 100px; padding-top: 10px; font-size: 0.85rem; color: #ff7112;}
+footer .f_sns {display: flex; margin-top: 51px;}
+footer .f_sns a {}
+footer .f_sns a img {margin-right: 28px;}
