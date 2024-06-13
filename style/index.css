@@ -4,11 +4,11 @@
 .header_nav header h1{margin-left: 260px; display: flex; align-items: center;}
 .header_nav header nav {display: flex; margin-left: 320px;align-items: center;  white-space: nowrap;}  
 .header_nav header nav .gnb {display: flex;} 
-.header_nav header nav .gnb li {margin-right: 76px; font-size: 1.125rem;position: relative;}
-.header_nav header nav .gnb li .snb {text-align: center; position: absolute; margin-top: 50px; z-index: 300;}
+.header_nav header nav .gnb > li {margin-right: 76px; font-size: 1.125rem;position: relative; }
+.header_nav header nav .gnb li .snb {display: none; text-align: center; position: absolute; z-index: 300; left: 50%; transform: translateX(-50%); top: 80px;}
 .header_nav header nav .gnb li .snb li {position: relative; z-index: 200; line-height: 190%;}
 .header_nav header nav .gnb li .snb li a {color: #757575; font-size: 0.938rem; font-weight: 500;}
-.header_nav header nav .nav_bg {position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
+.header_nav header nav .nav_bg { display: none; position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
 /* --------------------------------------------------------------------------------------------bg1 */
 .visual {width: 1920px; height: 841px;}
 .visual .slide1 {background-image: url(../images/bg1.jpg);}
@@ -32,7 +32,7 @@
 .bg2 a em{}
 .bg2 a em img{height: 22px; width: 20px; margin-top: 60px;}
 /* -------------------------------------------------------------------------------------------bg3 */
-.bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px;}
+.bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px; text-align: center;}
 .bg3 p{padding-top: 148px; text-align: center;}
 .bg3 p img{}
 .bg3 h2{text-align: center; color: white; font-weight: 800; font-size: 4rem;}
@@ -61,9 +61,59 @@
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img p{
 
 }
+.bg3 .see_more {border: 1px solid white; border-radius: 30px; padding: 10px 35px;}
+.bg3 .see_more span {color: white;}
+.bg3 .see_more em {}
+.bg3 .see_more em img{height: 22px; width: 20px; margin-top: 60px;}
+/* ===========================================bg4=================================================== */
+.bg4 {}
+.bg4 .News {text-align: center; font-weight: 800; font-size: 4rem; margin-top: 187px;}
+.bg4 .mini_news {text-align: center; margin-top: 40px;}
+.bg4 .mini_news a {margin-right: 43px;}
+.bg4 .mini_news .active {background-color: #FF2A20; color: white; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
+.bg4 .news_wrap {}
+.bg4 .news_wrap .news_all {}
+.bg4 .news_wrap .news_all .swiper {}
+.bg4 .news_wrap .news_all .all {}
+/* 전체 */
+.bg4 h1 .news_wrap .news_all .all .swiper-wrapper {}
+.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide {}
+.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a {}
+.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a img {}
+.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a h1 {}
+.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a p {}
+.bg4 h1 .news_wrap .news_all .swiper-button-prev {}
+.bg4 h1 .news_wrap .news_all .swiper-button-next {}
+/* 공지사항 */
+.bg4 h1 .news_wrap .news_all .news_alram{}
+.bg4 h1 .news_wrap .news_all .swiper{}
+.bg4 h1 .news_wrap .news_all .alram{}
+.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper{}
+.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a {}
+.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a img {}
+.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a h1 {}
+.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a p {}
+/* 이벤트 */
+.bg4 h1 .news_wrap .news_all .news_event{}
+.bg4 h1 .news_wrap .news_all .swiper{}
+.bg4 h1 .news_wrap .news_all .event{}
+.bg4 h1 .news_wrap .news_all .event .swiper-wrapper{}
+.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a {}
+.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a img {}
+.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a h1 {}
+.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a p {}
+/* ==================================================bg5================================================= */
+main .bg5 {background-image: url(../images/bg5_banner.jpg); width: 100%; height: 635px;}
+main .bg5 .with{}
+main .bg5 .with h1{}
+main .bg5 .with p{}
+main .bg5 .with a{border: 1px solid white; border-radius: 30px; padding: 10px 20px;}
+main .bg5 .with a span{color: white;}
+main .bg5 .with a em{}
+main .bg5 .with a img{height: 22px; width: 20px; margin-top: 60px; }
 /* =============================================================================footer=============================================================== */
 footer {background-color: #FFE68C; color: #FF2A20;}
-.fot_all {width: 1350px; margin: 0 auto; display: ;}
+.fot_all {width: 1350px; margin: 0 auto; padding-top: 11px;}
 footer .footer_top {border-bottom: 0.5px solid #FFCA7B; padding-bottom: 15px; padding-top: 14px;}
 footer .footer_top a {margin-right: 27px; color: #FF2A20;}
 footer .footer_top a span {margin-right: 27px; color: #FF2A20; font-weight: 600;}
