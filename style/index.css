@@ -9,7 +9,8 @@
 .header_nav header nav .gnb li .snb li {position: relative; z-index: 200; line-height: 190%;}
 .header_nav header nav .gnb li .snb li a {color: #757575; font-size: 0.938rem; font-weight: 500;}
 .header_nav header nav .nav_bg { display: none; position: absolute; width: 100%; z-index: 100; border-top: 1px solid #d9d9d9; height: 226px; background-color: white; top: 100px; left: 0; }
-/* --------------------------------------------------------------------------------------------bg1 */
+/* =============================================================bg1 =====================================================================================================*/
+/* =============================================================bg1 =======================================================================================================*/
 .visual {width: 1920px; height: 841px;}
 .visual .slide1 {background-image: url(../images/bg1.jpg);}
 .visual .slide2 {background-image: url(../images/bg1_2.png);}
@@ -21,7 +22,8 @@
 .set {width: 315px; height: 392px;}
 .side {width: 315px; height: 392px;}
 .drink {width: 315px; height: 392px;}
-/* ---------------------------------------------------------------------------------------------bg2 */
+/* =============================================================bg2 =============================================================================================================*/
+/* =============================================================bg2 ======================================================================================================*/
 .bg2 {text-align: center;}
 .bg2 h1 {text-align: center; margin-top: 157px;}
 .bg2 h1 img{}
@@ -31,79 +33,109 @@
 .bg2 a span{margin-right: 5px;}
 .bg2 a em{}
 .bg2 a em img{height: 22px; width: 20px; margin-top: 60px;}
-/* -------------------------------------------------------------------------------------------bg3 */
+/* ================================================================bg3======================================================================================================= */
+/* ================================================================bg3========================================================================================================== */
 .bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px; text-align: center;}
 .bg3 p{padding-top: 148px; text-align: center;}
 .bg3 p img{}
 .bg3 h2{text-align: center; color: white; font-weight: 800; font-size: 4rem;}
-.bg3 .mini_nav{text-align: center;margin-top: 40px;}
+/* ================================================미니메뉴 ========================================*/
+.bg3 .mini_nav{text-align: center;margin-top: 40px; margin-bottom: 60px;}
 .bg3 .mini_nav .active{background-color: #AC130C; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
 .bg3 .mini_nav a{margin-right: 43px; color: white;}
-.bg3 .menu_wrap{display: flex;}
-.bg3 .menu_wrap .toast_wrap{}
+/* ===============================================스와이퍼 메뉴들 =====================================*/
+.bg3 .menu_wrap{}
+.bg3 .menu_wrap .toast_wrap{display: block;}
+.bg3 .menu_wrap .set_wrap{display: none;}
+.bg3 .menu_wrap .side_wrap{display: none;}
+.bg3 .menu_wrap .drink_wrap{display: none;}
+/*==============================================스와이퍼 토스트============================================= */
 .bg3 .menu_wrap .toast_wrap .swiper{}
-.bg3 .menu_wrap .toast_wrap .toast{}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {}
-/* =================================================================================공통 선택자 */
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8{
-
-}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a{
-
-}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img{
-
-}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to4 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img h1,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img h1{
-
-}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to1 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to3 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to2 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to5 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to6 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to7 a img p,.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide .to8 a img p{
-
-}
-.bg3 .see_more {border: 1px solid white; border-radius: 30px; padding: 10px 35px;}
-.bg3 .see_more span {color: white;}
+.bg3 .menu_wrap .toast_wrap .toast{width: 1350px; }
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise; font-size: 1.25rem;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a p {background-color: yellow; font-size: 0.875rem;}
+/*==============================================스와이퍼 세트============================================= */
+.bg3 .menu_wrap .set_wrap .swiper{}
+.bg3 .menu_wrap .set_wrap .set{width: 1350px; }
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.25rem;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+/*==============================================스와이퍼 사이드============================================= */
+.bg3 .menu_wrap .side_wrap .swiper{}
+.bg3 .menu_wrap .side_wrap .side {width: 1350px; }
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .slide2 {background-color: none;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .slide3{background-color: none;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .slide4{background-color: none;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.25rem;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+/*==============================================스와이퍼 드링크============================================= */
+.bg3 .menu_wrap .drink_wrap .swiper{}
+.bg3 .menu_wrap .drink_wrap .drink{width: 1350px; }
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.25rem;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+/* ======================================================더보기================================================ */
+.bg3 .see_more {border: 1px solid white; border-radius: 30px; display: flex; width: 138px; 
+justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; margin-top: 50px;}
+.bg3 .see_more span {color: white; justify-content: center;}
 .bg3 .see_more em {}
-.bg3 .see_more em img{height: 22px; width: 20px; margin-top: 60px;}
-/* ===========================================bg4=================================================== */
+.bg3 .see_more em img{}
+/* =================================================================bg4======================================================================================================= */
+/* =================================================================bg4============================================================================================================== */
 .bg4 {}
 .bg4 .News {text-align: center; font-weight: 800; font-size: 4rem; margin-top: 187px;}
-.bg4 .mini_news {text-align: center; margin-top: 40px;}
+.bg4 .mini_news {text-align: center; margin-top: 40px; margin-bottom: 60px;}
 .bg4 .mini_news a {margin-right: 43px;}
-.bg4 .mini_news .active {background-color: #FF2A20; color: white; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
+.bg4 .mini_news .active { background-color: #FF2A20; color: white; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
 .bg4 .news_wrap {}
 .bg4 .news_wrap .news_all {}
 .bg4 .news_wrap .news_all .swiper {}
 .bg4 .news_wrap .news_all .all {}
-/* 전체 */
-.bg4 h1 .news_wrap .news_all .all .swiper-wrapper {}
-.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide {}
-.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a {}
-.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a img {}
-.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a h1 {}
-.bg4 h1 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a p {}
-.bg4 h1 .news_wrap .news_all .swiper-button-prev {}
-.bg4 h1 .news_wrap .news_all .swiper-button-next {}
-/* 공지사항 */
-.bg4 h1 .news_wrap .news_all .news_alram{}
-.bg4 h1 .news_wrap .news_all .swiper{}
-.bg4 h1 .news_wrap .news_all .alram{}
-.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper{}
-.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a {}
-.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a img {}
-.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a h1 {}
-.bg4 h1 .news_wrap .news_all .alram .swiper-wrapper .swiper-slide a p {}
-/* 이벤트 */
-.bg4 h1 .news_wrap .news_all .news_event{}
-.bg4 h1 .news_wrap .news_all .swiper{}
-.bg4 h1 .news_wrap .news_all .event{}
-.bg4 h1 .news_wrap .news_all .event .swiper-wrapper{}
-.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a {}
-.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a img {}
-.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a h1 {}
-.bg4 h1 .news_wrap .news_all .event .swiper-wrapper .swiper-slide a p {}
-/* ==================================================bg5================================================= */
-main .bg5 {background-image: url(../images/bg5_banner.jpg); width: 100%; height: 635px;}
+/* ===============================================스와이퍼 메뉴들 =====================================*/
+.bg4 .news_wrap .news_all{display: block;}
+.bg4 .news_wrap .news_alram{display: none;}
+.bg4 .news_wrap .news_event{display: none;}
+/*====================================================== 전체=================================== */
+.bg4 .news_wrap .news_wrap .swiper{}
+.bg4 .news_wrap .news_all .all{width: 1350px; }
+.bg4 .news_wrap .news_all .all .swiper-wrapper{background-color: green;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise; font-size: 1.125rem;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a p {background-color: yellow; font-size: 0.875rem;}
+/* ========================================================공지사항============================================= */
+.bg4 .news_wrap .news_wrap .swiper{}
+.bg4 .news_wrap .news_alram .alram{width: 1350px; }
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper{background-color: green;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.125rem;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+/* ======================================================이벤트==================================================== */
+.bg4 .news_wrap .news_wrap .swiper{}
+.bg4 .news_wrap .news_event .event{width: 1350px; }
+.bg4 .news_wrap .news_event .event .swiper-wrapper{background-color: green;}
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a img {width: 100%;}
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.125rem;}
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+/* ===========================================================div.box========================================================== */
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a .box{background-color: red; width: 3000px;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a .box{}
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a .box{}
+/* =============================================================================bg5========================================================================================= */
+/* =============================================================================bg5======================================================================================== */
+main .bg5 {background-image: url(../images/bg5_banner.jpg); width: 100%; height: 635px; margin-top: 213px;}
 main .bg5 .with{}
 main .bg5 .with h1{}
 main .bg5 .with p{}
@@ -111,7 +143,8 @@ main .bg5 .with a{border: 1px solid white; border-radius: 30px; padding: 10px 20
 main .bg5 .with a span{color: white;}
 main .bg5 .with a em{}
 main .bg5 .with a img{height: 22px; width: 20px; margin-top: 60px; }
-/* =============================================================================footer=============================================================== */
+/* =============================================================================footer========================================================================================= */
+/* =============================================================================footer======================================================================================= */
 footer {background-color: #FFE68C; color: #FF2A20;}
 .fot_all {width: 1350px; margin: 0 auto; padding-top: 11px;}
 footer .footer_top {border-bottom: 0.5px solid #FFCA7B; padding-bottom: 15px; padding-top: 14px;}

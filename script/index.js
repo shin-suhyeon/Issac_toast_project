@@ -5,11 +5,50 @@ const visual = new Swiper('.visual',{
 })
 const toast = new Swiper('.toast',{
     autoplay:{delay:3000},
-    direction:'vertial'
+    direction:'horizontal',
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop:'true',
 })
-const set = new Swiper('.set')
-const side = new Swiper('.side')
-const drink = new Swiper('.drink')
-const all = new Swiper('.all')
-const alram = new Swiper('.alram')
-const event = new Swiper('.event')
+const set = new Swiper('.set',{
+    autoplay:{delay:3000},
+    direction:'horizontal',
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop:'true',
+})
+const side = new Swiper('.side',{
+    autoplay:{delay:3000},
+    direction:'horizontal',
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop:'true',
+})
+const drink = new Swiper('.drink',{
+    autoplay:{delay:3000},
+    direction:'horizontal',
+    slidesPerView: 4,
+    spaceBetween: 30,
+    loop:'true',
+})
+const all = new Swiper('.all',{
+    autoplay:{delay:3000},
+    direction:'horizontal',
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop:'true',
+})
+const alram = new Swiper('.alram',{
+    autoplay:{delay:3000},
+    direction:'horizontal',
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop:'true',
+})
+const event = new Swiper('.event',{
+    autoplay:{delay:3000},
+    direction:'horizontal',
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop:'true',
+})
