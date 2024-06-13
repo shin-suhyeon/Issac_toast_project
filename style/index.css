@@ -36,13 +36,18 @@
 /* ================================================================bg3======================================================================================================= */
 /* ================================================================bg3========================================================================================================== */
 .bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px; text-align: center;}
-.bg3 p{padding-top: 148px; text-align: center;}
+.bg3 > p{padding-top: 148px; text-align: center;}
 .bg3 p img{}
 .bg3 h2{text-align: center; color: white; font-weight: 800; font-size: 4rem;}
 /* ================================================미니메뉴 ========================================*/
 .bg3 .mini_nav{text-align: center;margin-top: 40px; margin-bottom: 60px;}
 .bg3 .mini_nav .active{background-color: #AC130C; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
 .bg3 .mini_nav a{margin-right: 43px; color: white;}
+/* ===============================================div.boxx =====================================*/
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a .boxx {background-color: pink; padding: 20px;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a .boxx {}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a .boxx {}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a .boxx {}
 /* ===============================================스와이퍼 메뉴들 =====================================*/
 .bg3 .menu_wrap{}
 .bg3 .menu_wrap .toast_wrap{display: block;}
@@ -55,8 +60,8 @@
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{background-color: green;}
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise; font-size: 1.25rem;}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a p {background-color: yellow; font-size: 0.875rem;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a h1 {font-size: 1.25rem; padding-top:23px; padding-bottom: 6px;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a p {font-size: 0.875rem;background-color: rebeccapurple;}
 /*==============================================스와이퍼 세트============================================= */
 .bg3 .menu_wrap .set_wrap .swiper{}
 .bg3 .menu_wrap .set_wrap .set{width: 1350px; }
@@ -99,7 +104,7 @@ justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; m
 .bg4 .mini_news .active { background-color: #FF2A20; color: white; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
 .bg4 .news_wrap {}
 .bg4 .news_wrap .news_all {}
-.bg4 .news_wrap .news_all .swiper {}
+.bg4 .news_wrap .news_all .swiper .swiper-wrapper .swiper-slide {background-color: blue;}
 .bg4 .news_wrap .news_all .all {}
 /* ===============================================스와이퍼 메뉴들 =====================================*/
 .bg4 .news_wrap .news_all{display: block;}
@@ -108,29 +113,31 @@ justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; m
 /*====================================================== 전체=================================== */
 .bg4 .news_wrap .news_wrap .swiper{}
 .bg4 .news_wrap .news_all .all{width: 1350px; }
-.bg4 .news_wrap .news_all .all .swiper-wrapper{background-color: green;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper{}
 .bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise; font-size: 1.125rem;}
-.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a p {background-color: yellow; font-size: 0.875rem;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a h1 {font-size: 1.125rem;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a p {font-size: 0.875rem; color: #757575; margin-top: 10px;}
 /* ========================================================공지사항============================================= */
 .bg4 .news_wrap .news_wrap .swiper{}
 .bg4 .news_wrap .news_alram .alram{width: 1350px; }
-.bg4 .news_wrap .news_alram .alram .swiper-wrapper{background-color: green;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper{}
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.125rem;}
-.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a h1 {font-size: 1.125rem;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a p {font-size: 0.875rem; color: #757575; margin-top: 10px;}
 /* ======================================================이벤트==================================================== */
 .bg4 .news_wrap .news_wrap .swiper{}
 .bg4 .news_wrap .news_event .event{width: 1350px; }
-.bg4 .news_wrap .news_event .event .swiper-wrapper{background-color: green;}
+.bg4 .news_wrap .news_event .event .swiper-wrapper{}
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.125rem;}
-.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a h1 {font-size: 1.125rem;}
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a p {font-size: 0.875rem; color: #757575; margin-top: 10px;}
 /* ===========================================================div.box========================================================== */
-.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a .box{background-color: red; width: 3000px;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border: 1px solid black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border: 1px solid black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+.bg4 .news_wrap .event .event .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border: 1px solid black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a .box{}
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a .box{}
 /* =============================================================================bg5========================================================================================= */
