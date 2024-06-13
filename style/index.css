@@ -18,10 +18,10 @@
 .visual .slide4 {background-image: url(../images/bg1_4.png);}
 .visual .slide5 {background-image: url(../images/bg1_5.png);}
 .visual .slide6 {background-image: url(../images/bg1_6.png);}
-.toast {width: 315px; height: 392px;}
-.set {width: 315px; height: 392px;}
-.side {width: 315px; height: 392px;}
-.drink {width: 315px; height: 392px;}
+.toast {width: 315px; }
+.set {width: 315px;}
+.side {width: 315px;}
+.drink {width: 315px;}
 /* =============================================================bg2 =============================================================================================================*/
 /* =============================================================bg2 ======================================================================================================*/
 .bg2 {text-align: center;}
@@ -29,25 +29,31 @@
 .bg2 h1 img{}
 .bg2 h2 {margin-top: 34px; font-size: 1.4rem; letter-spacing: -5%;}
 .bg2 p{margin-top: 16px; line-height: 33px; color: #757575;}
-.bg2 a{border: 1px solid black; border-radius: 30px; padding: 10px 20px;} 
-.bg2 a span{margin-right: 5px;}
+.bg2 a{border: 2px solid black; border-radius: 30px; display: flex; width: 138px; align-items: center;
+    justify-content: center; margin: 0 auto; flex-flow: row nowrap; width: 201px; margin-top: 50px; padding: 9px 0;} 
+.bg2 a span{margin-right: 5px; justify-content: center; font-weight: 500;}
 .bg2 a em{}
-.bg2 a em img{height: 22px; width: 20px; margin-top: 60px;}
+.bg2 a em img{margin-left: 20px; width: 24px;}
 /* ================================================================bg3======================================================================================================= */
 /* ================================================================bg3========================================================================================================== */
 .bg3 {background-color: #FF281E; margin-top: 159px; height: 1060px; text-align: center;}
 .bg3 > p{padding-top: 148px; text-align: center;}
 .bg3 p img{}
 .bg3 h2{text-align: center; color: white; font-weight: 800; font-size: 4rem;}
+/* ======================================================================box shawdow===================== */
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(207, 0, 0);} 
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(207, 0, 0);} 
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(207, 0, 0);} 
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(207, 0, 0);} 
 /* ================================================미니메뉴 ========================================*/
 .bg3 .mini_nav{text-align: center;margin-top: 40px; margin-bottom: 60px;}
 .bg3 .mini_nav .active{background-color: #AC130C; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
 .bg3 .mini_nav a{margin-right: 43px; color: white;}
 /* ===============================================div.boxx =====================================*/
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a .boxx {background-color: pink; padding: 20px;}
-.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a .boxx {}
-.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a .boxx {}
-.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a .boxx {}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a .boxx {padding: 20px 20px 50px 20px; border-top: 1px solid #b6b6b6; width: 90%; margin: 0 auto;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a .boxx {padding: 20px 20px 50px 20px;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a .boxx {padding: 20px 20px 50px 20px;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a .boxx {padding: 20px 20px 50px 20px;}
 /* ===============================================스와이퍼 메뉴들 =====================================*/
 .bg3 .menu_wrap{}
 .bg3 .menu_wrap .toast_wrap{display: block;}
@@ -57,44 +63,44 @@
 /*==============================================스와이퍼 토스트============================================= */
 .bg3 .menu_wrap .toast_wrap .swiper{}
 .bg3 .menu_wrap .toast_wrap .toast{width: 1350px; }
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper{padding-bottom: 20px;}
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a h1 {font-size: 1.25rem; padding-top:23px; padding-bottom: 6px;}
-.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a p {font-size: 0.875rem;background-color: rebeccapurple;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a h1 {font-size: 1.25rem;padding-bottom: 10px;}
+.bg3 .menu_wrap .toast_wrap .toast .swiper-wrapper .swiper-slide a p {font-size: 0.875rem; color: #757575;}
 /*==============================================스와이퍼 세트============================================= */
 .bg3 .menu_wrap .set_wrap .swiper{}
 .bg3 .menu_wrap .set_wrap .set{width: 1350px; }
-.bg3 .menu_wrap .set_wrap .set .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper{padding-bottom: 20px;}
 .bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.25rem;}
-.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a h1 {font-size: 1.25rem;}
+.bg3 .menu_wrap .set_wrap .set .swiper-wrapper .swiper-slide a p {font-size: 0.875rem;}
 /*==============================================스와이퍼 사이드============================================= */
 .bg3 .menu_wrap .side_wrap .swiper{}
 .bg3 .menu_wrap .side_wrap .side {width: 1350px; }
-.bg3 .menu_wrap .side_wrap .side .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper{padding-bottom: 20px;}
 .bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg3 .menu_wrap .side_wrap .side .swiper-wrapper .slide2 {background-color: none;}
 .bg3 .menu_wrap .side_wrap .side .swiper-wrapper .slide3{background-color: none;}
 .bg3 .menu_wrap .side_wrap .side .swiper-wrapper .slide4{background-color: none;}
 .bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.25rem;}
-.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a h1 {font-size: 1.25rem;}
+.bg3 .menu_wrap .side_wrap .side .swiper-wrapper .swiper-slide a p {font-size: 0.875rem;}
 /*==============================================스와이퍼 드링크============================================= */
 .bg3 .menu_wrap .drink_wrap .swiper{}
 .bg3 .menu_wrap .drink_wrap .drink{width: 1350px; }
-.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper{background-color: green;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper{padding-bottom: 20px;}
 .bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a img {width: 100%;}
-.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a h1 {background-color: paleturquoise;font-size: 1.25rem;}
-.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a p {background-color: yellow;font-size: 0.875rem;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a h1 {font-size: 1.25rem;}
+.bg3 .menu_wrap .drink_wrap .drink .swiper-wrapper .swiper-slide a p {font-size: 0.875rem;}
 /* ======================================================더보기================================================ */
-.bg3 .see_more {border: 1px solid white; border-radius: 30px; display: flex; width: 138px; 
-justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; margin-top: 50px;}
-.bg3 .see_more span {color: white; justify-content: center;}
+.bg3 .see_more {border: 2px solid white; border-radius: 30px; display: flex; width: 138px; align-items: center;
+    justify-content: center; margin: 0 auto; flex-flow: row nowrap; width: 201px; margin-top: 50px; padding: 9px 0;}
+.bg3 .see_more span {color: white; justify-content: center;font-weight: 500;}
 .bg3 .see_more em {}
-.bg3 .see_more em img{}
+.bg3 .see_more em img{margin-left: 60px; width: 24px;}
 /* =================================================================bg4======================================================================================================= */
 /* =================================================================bg4============================================================================================================== */
 .bg4 {}
@@ -104,8 +110,11 @@ justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; m
 .bg4 .mini_news .active { background-color: #FF2A20; color: white; font-weight: 600; padding: 7px 17px; border-radius: 30px;}
 .bg4 .news_wrap {}
 .bg4 .news_wrap .news_all {}
-.bg4 .news_wrap .news_all .swiper .swiper-wrapper .swiper-slide {background-color: blue;}
+.bg4 .news_wrap .news_all .swiper .swiper-wrapper .swiper-slide {}
 .bg4 .news_wrap .news_all .all {}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(224, 224, 224);} 
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(224, 224, 224);} 
+.bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide {box-shadow: 0 7px 7px 0 rgb(224, 224, 224);} 
 /* ===============================================스와이퍼 메뉴들 =====================================*/
 .bg4 .news_wrap .news_all{display: block;}
 .bg4 .news_wrap .news_alram{display: none;}
@@ -113,7 +122,7 @@ justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; m
 /*====================================================== 전체=================================== */
 .bg4 .news_wrap .news_wrap .swiper{}
 .bg4 .news_wrap .news_all .all{width: 1350px; }
-.bg4 .news_wrap .news_all .all .swiper-wrapper{}
+.bg4 .news_wrap .news_all .all .swiper-wrapper{padding-bottom: 20px;}
 .bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a img {width: 100%;}
 .bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a h1 {font-size: 1.125rem;}
@@ -121,7 +130,7 @@ justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; m
 /* ========================================================공지사항============================================= */
 .bg4 .news_wrap .news_wrap .swiper{}
 .bg4 .news_wrap .news_alram .alram{width: 1350px; }
-.bg4 .news_wrap .news_alram .alram .swiper-wrapper{}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper{padding-bottom: 20px;}
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a img {width: 100%;}
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a h1 {font-size: 1.125rem;}
@@ -129,30 +138,32 @@ justify-content: center; margin: 0 auto; flex-flow: row nowrap; padding: px 0; m
 /* ======================================================이벤트==================================================== */
 .bg4 .news_wrap .news_wrap .swiper{}
 .bg4 .news_wrap .news_event .event{width: 1350px; }
-.bg4 .news_wrap .news_event .event .swiper-wrapper{}
+.bg4 .news_wrap .news_event .event .swiper-wrapper{padding-bottom: 20px;}
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide {background-color: white; border-radius: 15px; }
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a img {width: 100%;}
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a h1 {font-size: 1.125rem;}
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a p {font-size: 0.875rem; color: #757575; margin-top: 10px;}
 /* ===========================================================div.box========================================================== */
-.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border: 1px solid black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
-.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border: 1px solid black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
-.bg4 .news_wrap .event .event .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border: 1px solid black; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+.bg4 .news_wrap .news_all .all .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+.bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+.bg4 .news_wrap .event .event .swiper-wrapper .swiper-slide a .box{background-color: white; padding: 30px;border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
 .bg4 .news_wrap .news_alram .alram .swiper-wrapper .swiper-slide a .box{}
 .bg4 .news_wrap .news_event .event .swiper-wrapper .swiper-slide a .box{}
 /* =============================================================================bg5========================================================================================= */
 /* =============================================================================bg5======================================================================================== */
+main .with {background-color: red; display: inline-block; width: 1234px; height: 1235px; border-radius: 50%; z-index: 130;}
 main .bg5 {background-image: url(../images/bg5_banner.jpg); width: 100%; height: 635px; margin-top: 213px;}
-main .bg5 .with{}
-main .bg5 .with h1{}
-main .bg5 .with p{}
-main .bg5 .with a{border: 1px solid white; border-radius: 30px; padding: 10px 20px;}
-main .bg5 .with a span{color: white;}
+main .bg5 .with{color: white;}
+main .bg5 .with h1{ font-size: 4rem; font-weight: 800; letter-spacing: -5%; margin-bottom: 40px;}
+main .bg5 .with p{font-size: 1.5rem; line-height: 1.4;}
+main .bg5 .with a{border: 2px solid white; border-radius: 30px; display: flex; width: 138px; align-items: center;
+    justify-content: center;flex-flow: row nowrap; width: 201px; margin-top: 50px; padding: 9px 0;}
+main .bg5 .with a span{color: white; font-weight: 500;}
 main .bg5 .with a em{}
-main .bg5 .with a img{height: 22px; width: 20px; margin-top: 60px; }
+main .bg5 .with a img{margin-left: 40px; width: 24px;}
 /* =============================================================================footer========================================================================================= */
 /* =============================================================================footer======================================================================================= */
-footer {background-color: #FFE68C; color: #FF2A20;}
+footer {background-color: #FFE68C; color: #FF2A20; z-index: 100;}
 .fot_all {width: 1350px; margin: 0 auto; padding-top: 11px;}
 footer .footer_top {border-bottom: 0.5px solid #FFCA7B; padding-bottom: 15px; padding-top: 14px;}
 footer .footer_top a {margin-right: 27px; color: #FF2A20;}

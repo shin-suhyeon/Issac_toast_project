@@ -1,7 +1,7 @@
 const visual = new Swiper('.visual',{
     autoplay:{delay:3000},
     /* effect:'fade', */
-    effect:'cube',
+    effect:'horizontal',
 })
 const toast = new Swiper('.toast',{
     autoplay:{delay:3000},
