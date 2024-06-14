@@ -56,3 +56,27 @@ const event = new Swiper('.event',{
     spaceBetween: 30,
     loop:'true',
 })
+
+/* navi */
+const nav  =document.querySelector('nav')
+const gnb  =document.querySelectorAll('.gnb')
+const nav_bg  =document.querySelector('.nav_bg')
+const snb =document.querySelectorAll('.snb')
+nav_bg.style.height = '0'
+nav_bg.style.transition = 'height 0.3s'
+for(let i of snb)
+    {i.style.height = '0'; 
+    i.style.overflow = 'hidden'
+    i.style.transition = 'height 0.3s'}
+nav.addEventListener('mouseover',()=>{
+    nav_bg.style.height = '180px';
+    for(let i of snb){
+        i.style.height = '180px'; 
+    }
+})
+nav.addEventListener('mouseout',()=>{
+    nav_bg.style.height = '0';
+    for(let i of snb){
+        i.style.height = '0'; 
+    }
+})
